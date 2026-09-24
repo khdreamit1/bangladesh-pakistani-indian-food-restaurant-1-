@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Bangladesh Pakistani Indian Food</title>
+<meta name="description" content="Contact Bangladesh Pakistani Indian Food in Al Olaya, Riyadh. Call +966 54 898 5792 or get directions on Google Maps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div id="site-header"></div>
+<main id="main">
+
+<section class="page-hero"><div class="container"><h1>Contact Us</h1><p>Visit us in Al Olaya, Riyadh or get in touch with the restaurant.</p></div></section>
+
+<section><div class="container"><div class="contact-grid">
+<div class="info"><h2>Restaurant details</h2>
+<h3>Restaurant</h3><p data-text="name"></p>
+<h3>Phone</h3><p><a data-link="phoneLink" href="#" data-text="phone"></a></p>
+<h3>Address</h3><p data-text="address"></p>
+<h3>Google Maps</h3><p><a class="btn btn-ghost" data-link="mapsUrl" href="#">Get Directions</a></p></div>
+<div><h2>Send a message</h2>
+<form id="contact-form" novalidate>
+<label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" aria-describedby="name-error"><div class="error" id="name-error"></div>
+<label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" aria-describedby="phone-error"><div class="error" id="phone-error"></div>
+<label for="message">Message</label><textarea id="message" name="message" rows="5" aria-describedby="message-error"></textarea><div class="error" id="message-error"></div>
+<button class="btn" type="submit" style="margin-top:10px">Send Message</button>
+<p class="status" id="form-status" role="status"></p>
+<p class="note">This is a demo form. Messages are not sent anywhere yet, so please call the restaurant to reach us.</p>
+</form></div>
+</div>
+<iframe class="map" id="map-frame" title="Map of Bangladesh Pakistani Indian Food in Al Olaya, Riyadh" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></section>
+
+<section class="cta"><div class="container center"><h2>Hungry?</h2><p class="lead"></p>
+<div class="actions"><a class="btn btn-gold" data-link="phoneLink" href="#">Call Now</a><a class="btn btn-ghost" href="menu.html">View Menu</a><a class="btn btn-ghost" data-link="mapsUrl" href="#">Get Directions</a></div></div></section>
+</main>
+<div id="site-footer"></div>
+<script src="script.js"></script>
+</body>
+</html>
